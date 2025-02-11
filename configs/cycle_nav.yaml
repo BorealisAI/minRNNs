@@ -1,0 +1,36 @@
+# Copyright (c) 2025-present, Royal Bank of Canada.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+
+# Training Parameters
+train_seed: 42
+train_batch_size: 128
+accum_iter: 1
+num_steps: 500000
+lr: 0.0003
+clip: "None"
+print_freq: 100
+save_freq: 1000
+eval_freq: 5000
+
+# Eval Parameters
+val_seed: 0
+test_seed: 1
+eval_num_batches: 200
+eval_batch_size: 256
+
+# Model Parameters
+d_model: 256
+expand_dim: 1
+dropout: 0.0
+num_layers: 2
+kernel_size: 0
+enable_ff: False
+
+# Task Parameters
+vocab_size: 4
+d_in: "None"
+d_out: 5

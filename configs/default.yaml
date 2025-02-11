@@ -1,0 +1,18 @@
+# Copyright (c) 2025-present, Royal Bank of Canada.
+# All rights reserved.
+#
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+
+ff_mult: 2
+wd: 0.05
+forget_bias_init_scale: 3
+train_seed: 42
+model: 'minLSTM'
+check_exists: False
+
+enable_ff: True
+use_coeff_norm: False
+use_init_hidden_state: True
+norm_type: 'RMSNorm'

@@ -1,0 +1,4 @@
+attrdict==2.0.1
+PyYAML==6.0.2
+torch==2.2.0
+tqdm==4.66.6
